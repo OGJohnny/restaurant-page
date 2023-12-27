@@ -44,7 +44,7 @@ function createMenuItem(name, description) {
     itemDescription.textContent = description;
 
     const image = document.createElement('img');
-    image.src = `../dist/images/menu/${name.toLowerCase()}.jpg`;
+    image.src = `../src/images/menu/${name.toLowerCase()}.jpg`;
     image.alt = `${name}`;
 
     menuItem.appendChild(itemName);

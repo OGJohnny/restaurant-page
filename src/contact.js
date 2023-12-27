@@ -8,7 +8,7 @@ const contact = () => {
     pageContent.appendChild(heading);
 
     const image = document.createElement('img');
-    image.src = '../dist/images/patio.jpg';
+    image.src = '../src/images/patio.jpg';
     image.alt = 'Restaurant Patio';
     pageContent.appendChild(image);
 

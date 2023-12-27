@@ -1,3 +1,5 @@
+import "./styles.css";
+
 const home = () => {
     const content = document.querySelector("#content");
     const pageContent = document.createElement('div');
@@ -8,7 +10,7 @@ const home = () => {
     pageContent.appendChild(heading);
 
     const image = document.createElement('img');
-    image.src = "../dist/images/tasties.jpg";
+    image.src = "../src/images/tasties.jpg"
     image.alt = "Image Of Restaurant";
     pageContent.appendChild(image);
 
